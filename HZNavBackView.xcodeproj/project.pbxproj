@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1CB8A8F2205F4C000043193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8A8E2205F4C000043193 /* AppDelegate.m */; };
+		E1CB8A922205F4C000043193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8A912205F4C000043193 /* ViewController.m */; };
+		E1CB8A952205F4C000043193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CB8A932205F4C000043193 /* Main.storyboard */; };
+		E1CB8A972205F4C500043193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CB8A962205F4C500043193 /* Assets.xcassets */; };
+		E1CB8A9A2205F4C500043193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CB8A982205F4C500043193 /* LaunchScreen.storyboard */; };
+		E1CB8A9D2205F4C500043193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8A9C2205F4C500043193 /* main.m */; };
+		E1CB8AA72205F4C500043193 /* HZNavBackViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8AA62205F4C500043193 /* HZNavBackViewTests.m */; };
+		E1CB8AB22205F4C500043193 /* HZNavBackViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8AB12205F4C500043193 /* HZNavBackViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1CB8AA32205F4C500043193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CB8A822205F4C000043193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CB8A892205F4C000043193;
+			remoteInfo = HZNavBackView;
+		};
+		E1CB8AAE2205F4C500043193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CB8A822205F4C000043193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CB8A892205F4C000043193;
+			remoteInfo = HZNavBackView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1CB8A8A2205F4C000043193 /* HZNavBackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZNavBackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CB8A8D2205F4C000043193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1CB8A8E2205F4C000043193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1CB8A902205F4C000043193 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1CB8A912205F4C000043193 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1CB8A942205F4C000043193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1CB8A962205F4C500043193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1CB8A992205F4C500043193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1CB8A9B2205F4C500043193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CB8A9C2205F4C500043193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1CB8AA22205F4C500043193 /* HZNavBackViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZNavBackViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CB8AA62205F4C500043193 /* HZNavBackViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZNavBackViewTests.m; sourceTree = "<group>"; };
+		E1CB8AA82205F4C500043193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CB8AAD2205F4C500043193 /* HZNavBackViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZNavBackViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CB8AB12205F4C500043193 /* HZNavBackViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZNavBackViewUITests.m; sourceTree = "<group>"; };
+		E1CB8AB32205F4C500043193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CB8A872205F4C000043193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CB8A9F2205F4C500043193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CB8AAA2205F4C500043193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CB8A812205F4C000043193 = {
+			isa = PBXGroup;
+			children = (
+				E1CB8A8C2205F4C000043193 /* HZNavBackView */,
+				E1CB8AA52205F4C500043193 /* HZNavBackViewTests */,
+				E1CB8AB02205F4C500043193 /* HZNavBackViewUITests */,
+				E1CB8A8B2205F4C000043193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CB8A8B2205F4C000043193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB8A8A2205F4C000043193 /* HZNavBackView.app */,
+				E1CB8AA22205F4C500043193 /* HZNavBackViewTests.xctest */,
+				E1CB8AAD2205F4C500043193 /* HZNavBackViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CB8A8C2205F4C000043193 /* HZNavBackView */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB8A8D2205F4C000043193 /* AppDelegate.h */,
+				E1CB8A8E2205F4C000043193 /* AppDelegate.m */,
+				E1CB8A902205F4C000043193 /* ViewController.h */,
+				E1CB8A912205F4C000043193 /* ViewController.m */,
+				E1CB8A932205F4C000043193 /* Main.storyboard */,
+				E1CB8A962205F4C500043193 /* Assets.xcassets */,
+				E1CB8A982205F4C500043193 /* LaunchScreen.storyboard */,
+				E1CB8A9B2205F4C500043193 /* Info.plist */,
+				E1CB8A9C2205F4C500043193 /* main.m */,
+			);
+			path = HZNavBackView;
+			sourceTree = "<group>";
+		};
+		E1CB8AA52205F4C500043193 /* HZNavBackViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB8AA62205F4C500043193 /* HZNavBackViewTests.m */,
+				E1CB8AA82205F4C500043193 /* Info.plist */,
+			);
+			path = HZNavBackViewTests;
+			sourceTree = "<group>";
+		};
+		E1CB8AB02205F4C500043193 /* HZNavBackViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB8AB12205F4C500043193 /* HZNavBackViewUITests.m */,
+				E1CB8AB32205F4C500043193 /* Info.plist */,
+			);
+			path = HZNavBackViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CB8A892205F4C000043193 /* HZNavBackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CB8AB62205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackView" */;
+			buildPhases = (
+				E1CB8A862205F4C000043193 /* Sources */,
+				E1CB8A872205F4C000043193 /* Frameworks */,
+				E1CB8A882205F4C000043193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZNavBackView;
+			productName = HZNavBackView;
+			productReference = E1CB8A8A2205F4C000043193 /* HZNavBackView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1CB8AA12205F4C500043193 /* HZNavBackViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CB8AB92205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackViewTests" */;
+			buildPhases = (
+				E1CB8A9E2205F4C500043193 /* Sources */,
+				E1CB8A9F2205F4C500043193 /* Frameworks */,
+				E1CB8AA02205F4C500043193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CB8AA42205F4C500043193 /* PBXTargetDependency */,
+			);
+			name = HZNavBackViewTests;
+			productName = HZNavBackViewTests;
+			productReference = E1CB8AA22205F4C500043193 /* HZNavBackViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1CB8AAC2205F4C500043193 /* HZNavBackViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CB8ABC2205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackViewUITests" */;
+			buildPhases = (
+				E1CB8AA92205F4C500043193 /* Sources */,
+				E1CB8AAA2205F4C500043193 /* Frameworks */,
+				E1CB8AAB2205F4C500043193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CB8AAF2205F4C500043193 /* PBXTargetDependency */,
+			);
+			name = HZNavBackViewUITests;
+			productName = HZNavBackViewUITests;
+			productReference = E1CB8AAD2205F4C500043193 /* HZNavBackViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CB8A822205F4C000043193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "何泽的mac";
+				TargetAttributes = {
+					E1CB8A892205F4C000043193 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E1CB8AA12205F4C500043193 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E1CB8A892205F4C000043193;
+					};
+					E1CB8AAC2205F4C500043193 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E1CB8A892205F4C000043193;
+					};
+				};
+			};
+			buildConfigurationList = E1CB8A852205F4C000043193 /* Build configuration list for PBXProject "HZNavBackView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CB8A812205F4C000043193;
+			productRefGroup = E1CB8A8B2205F4C000043193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CB8A892205F4C000043193 /* HZNavBackView */,
+				E1CB8AA12205F4C500043193 /* HZNavBackViewTests */,
+				E1CB8AAC2205F4C500043193 /* HZNavBackViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CB8A882205F4C000043193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB8A9A2205F4C500043193 /* LaunchScreen.storyboard in Resources */,
+				E1CB8A972205F4C500043193 /* Assets.xcassets in Resources */,
+				E1CB8A952205F4C000043193 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CB8AA02205F4C500043193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CB8AAB2205F4C500043193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CB8A862205F4C000043193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB8A922205F4C000043193 /* ViewController.m in Sources */,
+				E1CB8A9D2205F4C500043193 /* main.m in Sources */,
+				E1CB8A8F2205F4C000043193 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CB8A9E2205F4C500043193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB8AA72205F4C500043193 /* HZNavBackViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CB8AA92205F4C500043193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB8AB22205F4C500043193 /* HZNavBackViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CB8AA42205F4C500043193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CB8A892205F4C000043193 /* HZNavBackView */;
+			targetProxy = E1CB8AA32205F4C500043193 /* PBXContainerItemProxy */;
+		};
+		E1CB8AAF2205F4C500043193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CB8A892205F4C000043193 /* HZNavBackView */;
+			targetProxy = E1CB8AAE2205F4C500043193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1CB8A932205F4C000043193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CB8A942205F4C000043193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1CB8A982205F4C500043193 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CB8A992205F4C500043193 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1CB8AB42205F4C500043193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1CB8AB52205F4C500043193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CB8AB72205F4C500043193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B3539P8YN;
+				INFOPLIST_FILE = HZNavBackView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.HZNavBackView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1CB8AB82205F4C500043193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B3539P8YN;
+				INFOPLIST_FILE = HZNavBackView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.HZNavBackView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1CB8ABA2205F4C500043193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B3539P8YN;
+				INFOPLIST_FILE = HZNavBackViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.HZNavBackViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZNavBackView.app/HZNavBackView";
+			};
+			name = Debug;
+		};
+		E1CB8ABB2205F4C500043193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B3539P8YN;
+				INFOPLIST_FILE = HZNavBackViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.HZNavBackViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZNavBackView.app/HZNavBackView";
+			};
+			name = Release;
+		};
+		E1CB8ABD2205F4C500043193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B3539P8YN;
+				INFOPLIST_FILE = HZNavBackViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.HZNavBackViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZNavBackView;
+			};
+			name = Debug;
+		};
+		E1CB8ABE2205F4C500043193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B3539P8YN;
+				INFOPLIST_FILE = HZNavBackViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.HZNavBackViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZNavBackView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CB8A852205F4C000043193 /* Build configuration list for PBXProject "HZNavBackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CB8AB42205F4C500043193 /* Debug */,
+				E1CB8AB52205F4C500043193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CB8AB62205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CB8AB72205F4C500043193 /* Debug */,
+				E1CB8AB82205F4C500043193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CB8AB92205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CB8ABA2205F4C500043193 /* Debug */,
+				E1CB8ABB2205F4C500043193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CB8ABC2205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CB8ABD2205F4C500043193 /* Debug */,
+				E1CB8ABE2205F4C500043193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CB8A822205F4C000043193 /* Project object */;
+}
