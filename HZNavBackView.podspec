@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 s.name         = "HZNavBackView"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.ios.deployment_target = '7.0'
-s.summary      = "HZGradient 渐变颜色控件."
+s.summary      = "HZNavBackView 自定义导航栏."
 s.homepage     = "https://github.com/zezeyu/HZNavBackView"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "heze" => "895315401@qq.com" }
