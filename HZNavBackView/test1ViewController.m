@@ -7,7 +7,7 @@
 //
 
 #import "test1ViewController.h"
-
+#import "UIViewController+HZBasetopView.h"
 @interface test1ViewController ()
 
 @end
@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"测试1";
+    self.hz_topView.image = [UIImage imageNamed:@"nav_bg"];
     // Do any additional setup after loading the view.
+//    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
 }
 
 /*

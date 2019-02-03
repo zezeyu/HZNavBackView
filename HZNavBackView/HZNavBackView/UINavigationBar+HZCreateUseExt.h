@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#define kHZScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kHZScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kHZTopHeight ([[UIApplication sharedApplication] statusBarFrame].size.height + 44.0)
+#import "UIImage+HZCreateUseExt.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UINavigationBar (HZCreateUseExt)
+
+-(void)hz_setElementsHidden;
 
 @end
 

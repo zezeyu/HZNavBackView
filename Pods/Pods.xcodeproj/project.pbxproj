@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E207C420D3B2EC828D7A840E8EFB6D9 /* HZGradient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A8D06A50E38E2E3B284CD328495836 /* HZGradient-dummy.m */; };
+		3524CF1FF3F085FA9D922C8D658FDE06 /* UIView+HZGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F03587C4FFD5529F396F45D0C87132B /* UIView+HZGradient.m */; };
+		37611DA81F115E435194A75A4776343B /* UIView+HZGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 641C13C17EDE471761CBDCD36B9414C9 /* UIView+HZGradient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADC8501F3275FCC72D3618AF5C625534 /* Pods-HZNavBackViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C09BC0E93C1ED607E356C4AD58D36745 /* Pods-HZNavBackViewTests-dummy.m */; };
+		BC74C8C9EE0A6A3CD83C6617E3910780 /* Pods-HZNavBackViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1154BC3F486B7F10E856FFF2D7AFD /* Pods-HZNavBackViewUITests-dummy.m */; };
+		EF7D18EDEBA1FA9B0201E4BC53F2A717 /* Pods-HZNavBackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBD4018AC7B7643FBB75A581880566 /* Pods-HZNavBackView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564C8C971C66C6C27BA4CAB8B50EB8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B7BC53C3A64D9F98D4ECCC7AF0384A;
+			remoteInfo = "Pods-HZNavBackView";
+		};
+		AC23414C439424A1512C874C6A8E34F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B7BC53C3A64D9F98D4ECCC7AF0384A;
+			remoteInfo = "Pods-HZNavBackView";
+		};
+		FEA0FC86726218331D4AE42D4A0DAF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927BC06B0F14946C34A23E05C8711441;
+			remoteInfo = HZGradient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E71C80128235CC1EDB61C48B6D763E1 /* Pods-HZNavBackViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZNavBackViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		112FAC3418A616509261A19E061CBF77 /* Pods-HZNavBackView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZNavBackView.debug.xcconfig"; sourceTree = "<group>"; };
+		17A8D06A50E38E2E3B284CD328495836 /* HZGradient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HZGradient-dummy.m"; sourceTree = "<group>"; };
+		191594EAE69227F4197C3F6B365B5653 /* HZGradient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZGradient.xcconfig; sourceTree = "<group>"; };
+		19CE47DBB6CBD10A6B8BF4DA88E5CAA2 /* Pods-HZNavBackView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZNavBackView-acknowledgements.plist"; sourceTree = "<group>"; };
+		23D1154BC3F486B7F10E856FFF2D7AFD /* Pods-HZNavBackViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZNavBackViewUITests-dummy.m"; sourceTree = "<group>"; };
+		2F03587C4FFD5529F396F45D0C87132B /* UIView+HZGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HZGradient.m"; path = "HZGradient/HZGradient/UIView+HZGradient.m"; sourceTree = "<group>"; };
+		43391BFDDB53D10930AFA936D57E3FAD /* Pods-HZNavBackViewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZNavBackViewUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4C7009AC1290E59145BB6D83BC136DA6 /* Pods-HZNavBackViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZNavBackViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		545B5013119B33A456A63D1603C1D055 /* Pods-HZNavBackViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZNavBackViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56F211C03FFCC96840F4656E40D6B504 /* Pods-HZNavBackViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZNavBackViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57F62C73AF712B90416867EC0BB6EA1A /* Pods-HZNavBackView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZNavBackView-frameworks.sh"; sourceTree = "<group>"; };
+		5E0F95BCAB3D4437F26E741D104D157D /* Pods-HZNavBackView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZNavBackView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		641C13C17EDE471761CBDCD36B9414C9 /* UIView+HZGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HZGradient.h"; path = "HZGradient/HZGradient/UIView+HZGradient.h"; sourceTree = "<group>"; };
+		64C655584448B8FC486480CB9336623E /* HZGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZGradient-prefix.pch"; sourceTree = "<group>"; };
+		674E1345EAE6764B0307438A5743B6F7 /* Pods-HZNavBackViewTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZNavBackViewTests-resources.sh"; sourceTree = "<group>"; };
+		78FBD4018AC7B7643FBB75A581880566 /* Pods-HZNavBackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZNavBackView-dummy.m"; sourceTree = "<group>"; };
+		7FC32E97872ACD152F2A4EAA1FB94282 /* Pods-HZNavBackViewTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZNavBackViewTests-frameworks.sh"; sourceTree = "<group>"; };
+		8B60EE4B356F90C933AAC75FAF03E303 /* libPods-HZNavBackViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HZNavBackViewUITests.a"; path = "libPods-HZNavBackViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9995373745AB8B5C1CB4D118FD9500C8 /* Pods-HZNavBackViewUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZNavBackViewUITests-resources.sh"; sourceTree = "<group>"; };
+		A76590CA6B21D7F21CFB12A848832EBB /* libHZGradient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHZGradient.a; path = libHZGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6A8A3A47634914452EB99C8A87A272 /* Pods-HZNavBackView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZNavBackView-resources.sh"; sourceTree = "<group>"; };
+		AE2D882A6B10E46A2883196DA9077CA7 /* libPods-HZNavBackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HZNavBackView.a"; path = "libPods-HZNavBackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05E1C49102232991DEEB05C57C3CE2E /* Pods-HZNavBackViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZNavBackViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C09BC0E93C1ED607E356C4AD58D36745 /* Pods-HZNavBackViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZNavBackViewTests-dummy.m"; sourceTree = "<group>"; };
+		C27CAE13CEC3EA87FABFE162325BB94C /* Pods-HZNavBackView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZNavBackView.release.xcconfig"; sourceTree = "<group>"; };
+		CC386FC54F990B9E2D0C4F3FE83316EF /* libPods-HZNavBackViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HZNavBackViewTests.a"; path = "libPods-HZNavBackViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62AE01AABA8D0D141C9A2A71CBBFCDC /* Pods-HZNavBackViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZNavBackViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0C9A6489F70715AE002C52DE72D710B /* Pods-HZNavBackViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZNavBackViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2B21AE8BC7F27A36085941ECB30908 /* Pods-HZNavBackViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZNavBackViewTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11135FB078B3443B613B2FBF722AAD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45907F1A388C49F0B59AE5D235B0BA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D251A765417FB42DD45A9055D10F4DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA93B3B056DEF5C17B3C693D5DB20820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11F1CA42A3F8BC5F0A8DDF26DAC1663A /* Pods-HZNavBackViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C05E1C49102232991DEEB05C57C3CE2E /* Pods-HZNavBackViewUITests-acknowledgements.markdown */,
+				4C7009AC1290E59145BB6D83BC136DA6 /* Pods-HZNavBackViewUITests-acknowledgements.plist */,
+				23D1154BC3F486B7F10E856FFF2D7AFD /* Pods-HZNavBackViewUITests-dummy.m */,
+				43391BFDDB53D10930AFA936D57E3FAD /* Pods-HZNavBackViewUITests-frameworks.sh */,
+				9995373745AB8B5C1CB4D118FD9500C8 /* Pods-HZNavBackViewUITests-resources.sh */,
+				0E71C80128235CC1EDB61C48B6D763E1 /* Pods-HZNavBackViewUITests.debug.xcconfig */,
+				56F211C03FFCC96840F4656E40D6B504 /* Pods-HZNavBackViewUITests.release.xcconfig */,
+			);
+			name = "Pods-HZNavBackViewUITests";
+			path = "Target Support Files/Pods-HZNavBackViewUITests";
+			sourceTree = "<group>";
+		};
+		234229AC7E0D0F2EF93589D21FD257CF /* HZGradient */ = {
+			isa = PBXGroup;
+			children = (
+				641C13C17EDE471761CBDCD36B9414C9 /* UIView+HZGradient.h */,
+				2F03587C4FFD5529F396F45D0C87132B /* UIView+HZGradient.m */,
+				4171315BC2C1E146F368DE1411DC14C1 /* Support Files */,
+			);
+			name = HZGradient;
+			path = HZGradient;
+			sourceTree = "<group>";
+		};
+		40F94F8732387A17E6426A1A02B861DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76590CA6B21D7F21CFB12A848832EBB /* libHZGradient.a */,
+				AE2D882A6B10E46A2883196DA9077CA7 /* libPods-HZNavBackView.a */,
+				CC386FC54F990B9E2D0C4F3FE83316EF /* libPods-HZNavBackViewTests.a */,
+				8B60EE4B356F90C933AAC75FAF03E303 /* libPods-HZNavBackViewUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4171315BC2C1E146F368DE1411DC14C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				191594EAE69227F4197C3F6B365B5653 /* HZGradient.xcconfig */,
+				17A8D06A50E38E2E3B284CD328495836 /* HZGradient-dummy.m */,
+				64C655584448B8FC486480CB9336623E /* HZGradient-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HZGradient";
+			sourceTree = "<group>";
+		};
+		61DC15755B1A2EAB81D4260CCDD764C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				234229AC7E0D0F2EF93589D21FD257CF /* HZGradient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				61DC15755B1A2EAB81D4260CCDD764C4 /* Pods */,
+				40F94F8732387A17E6426A1A02B861DB /* Products */,
+				86F2DE1197106A022DD81DE50BB2C72B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81375004519C84D26776ABCE71D678C2 /* Pods-HZNavBackView */ = {
+			isa = PBXGroup;
+			children = (
+				5E0F95BCAB3D4437F26E741D104D157D /* Pods-HZNavBackView-acknowledgements.markdown */,
+				19CE47DBB6CBD10A6B8BF4DA88E5CAA2 /* Pods-HZNavBackView-acknowledgements.plist */,
+				78FBD4018AC7B7643FBB75A581880566 /* Pods-HZNavBackView-dummy.m */,
+				57F62C73AF712B90416867EC0BB6EA1A /* Pods-HZNavBackView-frameworks.sh */,
+				AA6A8A3A47634914452EB99C8A87A272 /* Pods-HZNavBackView-resources.sh */,
+				112FAC3418A616509261A19E061CBF77 /* Pods-HZNavBackView.debug.xcconfig */,
+				C27CAE13CEC3EA87FABFE162325BB94C /* Pods-HZNavBackView.release.xcconfig */,
+			);
+			name = "Pods-HZNavBackView";
+			path = "Target Support Files/Pods-HZNavBackView";
+			sourceTree = "<group>";
+		};
+		86F2DE1197106A022DD81DE50BB2C72B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81375004519C84D26776ABCE71D678C2 /* Pods-HZNavBackView */,
+				C547D5B860FECA987D27A1EE5B619AB7 /* Pods-HZNavBackViewTests */,
+				11F1CA42A3F8BC5F0A8DDF26DAC1663A /* Pods-HZNavBackViewUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C547D5B860FECA987D27A1EE5B619AB7 /* Pods-HZNavBackViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				545B5013119B33A456A63D1603C1D055 /* Pods-HZNavBackViewTests-acknowledgements.markdown */,
+				D62AE01AABA8D0D141C9A2A71CBBFCDC /* Pods-HZNavBackViewTests-acknowledgements.plist */,
+				C09BC0E93C1ED607E356C4AD58D36745 /* Pods-HZNavBackViewTests-dummy.m */,
+				7FC32E97872ACD152F2A4EAA1FB94282 /* Pods-HZNavBackViewTests-frameworks.sh */,
+				674E1345EAE6764B0307438A5743B6F7 /* Pods-HZNavBackViewTests-resources.sh */,
+				F0C9A6489F70715AE002C52DE72D710B /* Pods-HZNavBackViewTests.debug.xcconfig */,
+				FF2B21AE8BC7F27A36085941ECB30908 /* Pods-HZNavBackViewTests.release.xcconfig */,
+			);
+			name = "Pods-HZNavBackViewTests";
+			path = "Target Support Files/Pods-HZNavBackViewTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AC794DCFB5699F28BABF2E0DD862EB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37611DA81F115E435194A75A4776343B /* UIView+HZGradient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08C44AE24D29A951037CAB7F4DC83792 /* Pods-HZNavBackViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7880132FA7054CE2873ADF329F78215A /* Build configuration list for PBXNativeTarget "Pods-HZNavBackViewTests" */;
+			buildPhases = (
+				AEB6B58A6549F49D43C8DB6B8596CD67 /* Sources */,
+				D251A765417FB42DD45A9055D10F4DBA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591DE1F37D644629C2593D748CC9EA60 /* PBXTargetDependency */,
+			);
+			name = "Pods-HZNavBackViewTests";
+			productName = "Pods-HZNavBackViewTests";
+			productReference = CC386FC54F990B9E2D0C4F3FE83316EF /* libPods-HZNavBackViewTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51B7BC53C3A64D9F98D4ECCC7AF0384A /* Pods-HZNavBackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F1C46BE30D6D0A20B3E0E453E6CD81 /* Build configuration list for PBXNativeTarget "Pods-HZNavBackView" */;
+			buildPhases = (
+				57F156698C80B5A45AD257B4720363DB /* Sources */,
+				DA93B3B056DEF5C17B3C693D5DB20820 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07193E4F449C1607347C45836891752F /* PBXTargetDependency */,
+			);
+			name = "Pods-HZNavBackView";
+			productName = "Pods-HZNavBackView";
+			productReference = AE2D882A6B10E46A2883196DA9077CA7 /* libPods-HZNavBackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6685C003126150D1BB210AF63B8290DF /* Pods-HZNavBackViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA2AE7EB4BF7BFAEAE09185CA0FA295 /* Build configuration list for PBXNativeTarget "Pods-HZNavBackViewUITests" */;
+			buildPhases = (
+				51BC276F7082FCB31AABD5A67C2531C7 /* Sources */,
+				45907F1A388C49F0B59AE5D235B0BA87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D7590515087815DD3676939965D289 /* PBXTargetDependency */,
+			);
+			name = "Pods-HZNavBackViewUITests";
+			productName = "Pods-HZNavBackViewUITests";
+			productReference = 8B60EE4B356F90C933AAC75FAF03E303 /* libPods-HZNavBackViewUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		927BC06B0F14946C34A23E05C8711441 /* HZGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E697066D64FE7F56EABF5EA8F1FC019C /* Build configuration list for PBXNativeTarget "HZGradient" */;
+			buildPhases = (
+				67CD84D3575DD08E56BFC964B2C70965 /* Sources */,
+				11135FB078B3443B613B2FBF722AAD07 /* Frameworks */,
+				9AC794DCFB5699F28BABF2E0DD862EB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZGradient;
+			productName = HZGradient;
+			productReference = A76590CA6B21D7F21CFB12A848832EBB /* libHZGradient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 40F94F8732387A17E6426A1A02B861DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927BC06B0F14946C34A23E05C8711441 /* HZGradient */,
+				51B7BC53C3A64D9F98D4ECCC7AF0384A /* Pods-HZNavBackView */,
+				08C44AE24D29A951037CAB7F4DC83792 /* Pods-HZNavBackViewTests */,
+				6685C003126150D1BB210AF63B8290DF /* Pods-HZNavBackViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51BC276F7082FCB31AABD5A67C2531C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC74C8C9EE0A6A3CD83C6617E3910780 /* Pods-HZNavBackViewUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F156698C80B5A45AD257B4720363DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7D18EDEBA1FA9B0201E4BC53F2A717 /* Pods-HZNavBackView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CD84D3575DD08E56BFC964B2C70965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E207C420D3B2EC828D7A840E8EFB6D9 /* HZGradient-dummy.m in Sources */,
+				3524CF1FF3F085FA9D922C8D658FDE06 /* UIView+HZGradient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB6B58A6549F49D43C8DB6B8596CD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8501F3275FCC72D3618AF5C625534 /* Pods-HZNavBackViewTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07193E4F449C1607347C45836891752F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HZGradient;
+			target = 927BC06B0F14946C34A23E05C8711441 /* HZGradient */;
+			targetProxy = FEA0FC86726218331D4AE42D4A0DAF2A /* PBXContainerItemProxy */;
+		};
+		11D7590515087815DD3676939965D289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HZNavBackView";
+			target = 51B7BC53C3A64D9F98D4ECCC7AF0384A /* Pods-HZNavBackView */;
+			targetProxy = AC23414C439424A1512C874C6A8E34F6 /* PBXContainerItemProxy */;
+		};
+		591DE1F37D644629C2593D748CC9EA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HZNavBackView";
+			target = 51B7BC53C3A64D9F98D4ECCC7AF0384A /* Pods-HZNavBackView */;
+			targetProxy = 564C8C971C66C6C27BA4CAB8B50EB8BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14680611E04CFEC175344896AB9E6E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191594EAE69227F4197C3F6B365B5653 /* HZGradient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HZGradient/HZGradient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HZGradient;
+				PRODUCT_NAME = HZGradient;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16E2B4D541AACE457A2EC199DE3465E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191594EAE69227F4197C3F6B365B5653 /* HZGradient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HZGradient/HZGradient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HZGradient;
+				PRODUCT_NAME = HZGradient;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B38FADD4786EF61A5CBCD401CCD2C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27CAE13CEC3EA87FABFE162325BB94C /* Pods-HZNavBackView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37BD3B65C0EDC5922B5B35F7EE9B2812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2B21AE8BC7F27A36085941ECB30908 /* Pods-HZNavBackViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90902FE895F27AE015B5CA6C003AA84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112FAC3418A616509261A19E061CBF77 /* Pods-HZNavBackView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9A34AF880527C300E4A0BC728B9F5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E71C80128235CC1EDB61C48B6D763E1 /* Pods-HZNavBackViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C2D78419B672CCF14E699F2439AB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C9A6489F70715AE002C52DE72D710B /* Pods-HZNavBackViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB6AAA7F24DD30AF4B3897253661ED93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F211C03FFCC96840F4656E40D6B504 /* Pods-HZNavBackViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F1C46BE30D6D0A20B3E0E453E6CD81 /* Build configuration list for PBXNativeTarget "Pods-HZNavBackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90902FE895F27AE015B5CA6C003AA84D /* Debug */,
+				2B38FADD4786EF61A5CBCD401CCD2C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA2AE7EB4BF7BFAEAE09185CA0FA295 /* Build configuration list for PBXNativeTarget "Pods-HZNavBackViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A34AF880527C300E4A0BC728B9F5BC /* Debug */,
+				FB6AAA7F24DD30AF4B3897253661ED93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7880132FA7054CE2873ADF329F78215A /* Build configuration list for PBXNativeTarget "Pods-HZNavBackViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C2D78419B672CCF14E699F2439AB8A /* Debug */,
+				37BD3B65C0EDC5922B5B35F7EE9B2812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E697066D64FE7F56EABF5EA8F1FC019C /* Build configuration list for PBXNativeTarget "HZGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14680611E04CFEC175344896AB9E6E98 /* Debug */,
+				16E2B4D541AACE457A2EC199DE3465E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

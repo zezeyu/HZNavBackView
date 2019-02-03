@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371E61B84F73C7A717A1D114 /* libPods-HZNavBackViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7939B66AAD1A917D2593A9C2 /* libPods-HZNavBackViewUITests.a */; };
+		5A5D36EBB4532AE581CAB616 /* libPods-HZNavBackView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 213A17DC0214EA4FE4C30524 /* libPods-HZNavBackView.a */; };
+		87F808CCCE729E0060DFB90D /* libPods-HZNavBackViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF30EEB95C884401948DC18 /* libPods-HZNavBackViewTests.a */; };
+		E15B5C4F2206FE100069DD6F /* UINavigationBar+HZCreateUseExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E15B5C4E2206FE100069DD6F /* UINavigationBar+HZCreateUseExt.m */; };
 		E1CB8A8F2205F4C000043193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8A8E2205F4C000043193 /* AppDelegate.m */; };
 		E1CB8A922205F4C000043193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8A912205F4C000043193 /* ViewController.m */; };
 		E1CB8A952205F4C000043193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CB8A932205F4C000043193 /* Main.storyboard */; };
@@ -15,6 +19,9 @@
 		E1CB8A9D2205F4C500043193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8A9C2205F4C500043193 /* main.m */; };
 		E1CB8AA72205F4C500043193 /* HZNavBackViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8AA62205F4C500043193 /* HZNavBackViewTests.m */; };
 		E1CB8AB22205F4C500043193 /* HZNavBackViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8AB12205F4C500043193 /* HZNavBackViewUITests.m */; };
+		E1CB8AC32205F95F00043193 /* UIViewController+HZBasetopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8AC22205F95F00043193 /* UIViewController+HZBasetopView.m */; };
+		E1CB8AC62206041B00043193 /* test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8AC52206041B00043193 /* test1ViewController.m */; };
+		E1CB8AC92206097F00043193 /* UIImage+HZCreateUseExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB8AC82206097F00043193 /* UIImage+HZCreateUseExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		213A17DC0214EA4FE4C30524 /* libPods-HZNavBackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZNavBackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7939B66AAD1A917D2593A9C2 /* libPods-HZNavBackViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZNavBackViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7649D0C3C82C339D5BB9D3 /* Pods-HZNavBackViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZNavBackViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZNavBackViewUITests/Pods-HZNavBackViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		988480B47580A8B91ED39907 /* Pods-HZNavBackView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZNavBackView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZNavBackView/Pods-HZNavBackView.release.xcconfig"; sourceTree = "<group>"; };
+		B055DD395382AF243955C174 /* Pods-HZNavBackViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZNavBackViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZNavBackViewTests/Pods-HZNavBackViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE88B5C3FA38801A0E8C32D /* Pods-HZNavBackView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZNavBackView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZNavBackView/Pods-HZNavBackView.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FC01D7ED55590E208BC13D /* Pods-HZNavBackViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZNavBackViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZNavBackViewTests/Pods-HZNavBackViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFF30EEB95C884401948DC18 /* libPods-HZNavBackViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZNavBackViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15B5C4D2206FE100069DD6F /* UINavigationBar+HZCreateUseExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HZCreateUseExt.h"; sourceTree = "<group>"; };
+		E15B5C4E2206FE100069DD6F /* UINavigationBar+HZCreateUseExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HZCreateUseExt.m"; sourceTree = "<group>"; };
 		E1CB8A8A2205F4C000043193 /* HZNavBackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZNavBackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB8A8D2205F4C000043193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1CB8A8E2205F4C000043193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +68,13 @@
 		E1CB8AAD2205F4C500043193 /* HZNavBackViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZNavBackViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB8AB12205F4C500043193 /* HZNavBackViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZNavBackViewUITests.m; sourceTree = "<group>"; };
 		E1CB8AB32205F4C500043193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CB8AC12205F95F00043193 /* UIViewController+HZBasetopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HZBasetopView.h"; sourceTree = "<group>"; };
+		E1CB8AC22205F95F00043193 /* UIViewController+HZBasetopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HZBasetopView.m"; sourceTree = "<group>"; };
+		E1CB8AC42206041B00043193 /* test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1ViewController.h; sourceTree = "<group>"; };
+		E1CB8AC52206041B00043193 /* test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1ViewController.m; sourceTree = "<group>"; };
+		E1CB8AC72206097F00043193 /* UIImage+HZCreateUseExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HZCreateUseExt.h"; sourceTree = "<group>"; };
+		E1CB8AC82206097F00043193 /* UIImage+HZCreateUseExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HZCreateUseExt.m"; sourceTree = "<group>"; };
+		E4094270DE921C4D8FC12609 /* Pods-HZNavBackViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZNavBackViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZNavBackViewUITests/Pods-HZNavBackViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5D36EBB4532AE581CAB616 /* libPods-HZNavBackView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F808CCCE729E0060DFB90D /* libPods-HZNavBackViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371E61B84F73C7A717A1D114 /* libPods-HZNavBackViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0462527C0CF8B6E9426BC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE88B5C3FA38801A0E8C32D /* Pods-HZNavBackView.debug.xcconfig */,
+				988480B47580A8B91ED39907 /* Pods-HZNavBackView.release.xcconfig */,
+				B055DD395382AF243955C174 /* Pods-HZNavBackViewTests.debug.xcconfig */,
+				D1FC01D7ED55590E208BC13D /* Pods-HZNavBackViewTests.release.xcconfig */,
+				7B7649D0C3C82C339D5BB9D3 /* Pods-HZNavBackViewUITests.debug.xcconfig */,
+				E4094270DE921C4D8FC12609 /* Pods-HZNavBackViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E1CB8A812205F4C000043193 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				E1CB8AA52205F4C500043193 /* HZNavBackViewTests */,
 				E1CB8AB02205F4C500043193 /* HZNavBackViewUITests */,
 				E1CB8A8B2205F4C000043193 /* Products */,
+				1A0462527C0CF8B6E9426BC1 /* Pods */,
+				FEA3CCCB946EAF8C322E4F22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +143,13 @@
 		E1CB8A8C2205F4C000043193 /* HZNavBackView */ = {
 			isa = PBXGroup;
 			children = (
+				E1CB8AC02205F54B00043193 /* HZNavBackView */,
 				E1CB8A8D2205F4C000043193 /* AppDelegate.h */,
 				E1CB8A8E2205F4C000043193 /* AppDelegate.m */,
 				E1CB8A902205F4C000043193 /* ViewController.h */,
 				E1CB8A912205F4C000043193 /* ViewController.m */,
+				E1CB8AC42206041B00043193 /* test1ViewController.h */,
+				E1CB8AC52206041B00043193 /* test1ViewController.m */,
 				E1CB8A932205F4C000043193 /* Main.storyboard */,
 				E1CB8A962205F4C500043193 /* Assets.xcassets */,
 				E1CB8A982205F4C500043193 /* LaunchScreen.storyboard */,
@@ -132,6 +177,29 @@
 			path = HZNavBackViewUITests;
 			sourceTree = "<group>";
 		};
+		E1CB8AC02205F54B00043193 /* HZNavBackView */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB8AC12205F95F00043193 /* UIViewController+HZBasetopView.h */,
+				E1CB8AC22205F95F00043193 /* UIViewController+HZBasetopView.m */,
+				E1CB8AC72206097F00043193 /* UIImage+HZCreateUseExt.h */,
+				E1CB8AC82206097F00043193 /* UIImage+HZCreateUseExt.m */,
+				E15B5C4D2206FE100069DD6F /* UINavigationBar+HZCreateUseExt.h */,
+				E15B5C4E2206FE100069DD6F /* UINavigationBar+HZCreateUseExt.m */,
+			);
+			path = HZNavBackView;
+			sourceTree = "<group>";
+		};
+		FEA3CCCB946EAF8C322E4F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				213A17DC0214EA4FE4C30524 /* libPods-HZNavBackView.a */,
+				DFF30EEB95C884401948DC18 /* libPods-HZNavBackViewTests.a */,
+				7939B66AAD1A917D2593A9C2 /* libPods-HZNavBackViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1CB8AB62205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackView" */;
 			buildPhases = (
+				15DCE7B7646D79732903C05D /* [CP] Check Pods Manifest.lock */,
 				E1CB8A862205F4C000043193 /* Sources */,
 				E1CB8A872205F4C000043193 /* Frameworks */,
 				E1CB8A882205F4C000043193 /* Resources */,
@@ -156,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1CB8AB92205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackViewTests" */;
 			buildPhases = (
+				90B1738123E20EB92BCAD6CA /* [CP] Check Pods Manifest.lock */,
 				E1CB8A9E2205F4C500043193 /* Sources */,
 				E1CB8A9F2205F4C500043193 /* Frameworks */,
 				E1CB8AA02205F4C500043193 /* Resources */,
@@ -174,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1CB8ABC2205F4C500043193 /* Build configuration list for PBXNativeTarget "HZNavBackViewUITests" */;
 			buildPhases = (
+				AADBE7C49999EE2843321432 /* [CP] Check Pods Manifest.lock */,
 				E1CB8AA92205F4C500043193 /* Sources */,
 				E1CB8AAA2205F4C500043193 /* Frameworks */,
 				E1CB8AAB2205F4C500043193 /* Resources */,
@@ -257,14 +328,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15DCE7B7646D79732903C05D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZNavBackView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90B1738123E20EB92BCAD6CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZNavBackViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AADBE7C49999EE2843321432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZNavBackViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1CB8A862205F4C000043193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15B5C4F2206FE100069DD6F /* UINavigationBar+HZCreateUseExt.m in Sources */,
+				E1CB8AC32205F95F00043193 /* UIViewController+HZBasetopView.m in Sources */,
 				E1CB8A922205F4C000043193 /* ViewController.m in Sources */,
 				E1CB8A9D2205F4C500043193 /* main.m in Sources */,
+				E1CB8AC92206097F00043193 /* UIImage+HZCreateUseExt.m in Sources */,
 				E1CB8A8F2205F4C000043193 /* AppDelegate.m in Sources */,
+				E1CB8AC62206041B00043193 /* test1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +565,13 @@
 		};
 		E1CB8AB72205F4C500043193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE88B5C3FA38801A0E8C32D /* Pods-HZNavBackView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = HZNavBackView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +584,13 @@
 		};
 		E1CB8AB82205F4C500043193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988480B47580A8B91ED39907 /* Pods-HZNavBackView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = HZNavBackView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +603,7 @@
 		};
 		E1CB8ABA2205F4C500043193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B055DD395382AF243955C174 /* Pods-HZNavBackViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +623,7 @@
 		};
 		E1CB8ABB2205F4C500043193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FC01D7ED55590E208BC13D /* Pods-HZNavBackViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +643,7 @@
 		};
 		E1CB8ABD2205F4C500043193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7649D0C3C82C339D5BB9D3 /* Pods-HZNavBackViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
@@ -523,6 +662,7 @@
 		};
 		E1CB8ABE2205F4C500043193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4094270DE921C4D8FC12609 /* Pods-HZNavBackViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;

@@ -6,7 +6,7 @@
 //  Copyright © 2019年 何泽的mac. All rights reserved.
 //
 
-#import "UIImage+CreateUseExt.h"
+#import "UIImage+HZCreateUseExt.h"
 
 @implementation UIImage (HZCreateUseExt)
 
