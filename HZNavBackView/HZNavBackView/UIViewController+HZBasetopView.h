@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UINavigationBar+HZCreateUseExt.h"
-#import "UIView+HZGradient.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (HZBasetopView)

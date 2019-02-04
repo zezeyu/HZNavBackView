@@ -8,7 +8,7 @@
 
 #import "UIViewController+HZBasetopView.h"
 #import <objc/runtime.h>
-
+#import "UIView+HZGradient.h"
 //定义topview关联的key
 static const char *key = "hz_topview";
 
