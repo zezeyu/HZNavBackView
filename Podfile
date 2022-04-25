@@ -6,7 +6,7 @@ target 'HZNavBackView' do
   # use_frameworks!
 
   # Pods for HZNavBackView
-  pod 'HZGradient', '~> 1.0.3'
+  pod 'HZGradient', '~> 1.1.3'
   target 'HZNavBackViewTests' do
     inherit! :search_paths
     # Pods for testing

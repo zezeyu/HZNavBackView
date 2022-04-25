@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name         = "HZNavBackView"
-s.version      = "1.0.3"
-s.ios.deployment_target = '7.0'
+s.version      = "1.1.3"
+s.ios.deployment_target = '9.0'
 s.summary      = "HZNavBackView 自定义导航栏."
 s.homepage     = "https://github.com/zezeyu/HZNavBackView"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -14,6 +14,6 @@ s.source_files  = "HZNavBackView/HZNavBackView/*.{h,m}"
 s.requires_arc = true
 
 # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-s.dependency "HZGradient", "~> 1.0.3"
+s.dependency "HZGradient", "~> 1.1.0"
 
 end
