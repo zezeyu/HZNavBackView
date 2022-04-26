@@ -10,7 +10,7 @@
 #import "UIViewController+HZBasetopView.h"
 #import "test1ViewController.h"
 @interface ViewController ()
-
+@property(nonatomic,strong)UILabel *testLabel;
 @end
 
 @implementation ViewController
@@ -24,6 +24,8 @@
     UIColor * start = [UIColor colorWithRed:64/255.0 green:136/255.0 blue:246/255.0 alpha:1];
     UIColor * end = [UIColor colorWithRed:23/255.0 green:205/255.0 blue:227/255.0 alpha:1];
     [self hz_GradientColors:[NSArray arrayWithObjects:start,end,nil] startPoint:CGPointMake(0, 0) endPoint:CGPointMake(1, 0)];
+    
+    [self.view addSubview:self.testLabel];
 }
 
 //用xib上的控件会被渐变色覆盖，正常现象。
@@ -46,6 +48,17 @@
 -(void)goTest{
     test1ViewController * test = [[test1ViewController alloc]init];
     [self.navigationController pushViewController:test animated:YES];
+}
+
+-(UILabel *)testLabel{
+    if (!_testLabel) {
+        _testLabel = [[UILabel alloc]init];
+        _testLabel.frame = CGRectMake(20, 50, kHZScreenWidth - 20, 60);
+        _testLabel.text = @"测试导航栏变高了也会在视图的最上面~（代码写的label）";
+        _testLabel.textColor = [UIColor blackColor];
+        _testLabel.numberOfLines = 0;
+    }
+    return _testLabel;
 }
 
 @end

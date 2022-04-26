@@ -69,6 +69,7 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector) {
 - (void)setHz_changeTopViewHeight:(CGFloat)hz_changeTopViewHeight{
     CGRect rect = self.hz_topView.frame;
     self.hz_topView.frame = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width, rect.size.height + hz_changeTopViewHeight);
+    [self.view bringSubviewToFront:self.hz_topView];
 }
 
 -(CGFloat)hz_changeTopViewHeight{
