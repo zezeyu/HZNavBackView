@@ -55,7 +55,16 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector) {
     if (self.navigationController.navigationBar.translucent) {
         [self.navigationController.navigationBar hz_setElementsHidden];
         [self load_topview];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
     }
+}
+
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
+}
+
+- (void)orientChange:(NSNotification *)notification{
+    [self hz_reload_topview];
 }
 
 -(void)setHz_edgesForExtendedLayout:(UIRectEdge)hz_edgesForExtendedLayout{
@@ -76,8 +85,9 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector) {
     return self.hz_changeTopViewHeight;
 }
 
--(void)load_topview{
+-(void)load_topview{    
     UIImageView * hz_topView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, kHZScreenWidth, kHZTopHeight)];
+    hz_topView.userInteractionEnabled = YES;
     [self.view addSubview:hz_topView];
     self.hz_topView = hz_topView;
 }

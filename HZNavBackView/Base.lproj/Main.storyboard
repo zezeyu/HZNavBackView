@@ -50,7 +50,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试导航栏变高了也会在视图的最上面~(xib)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHj-V2-Y0Q">
-                                <rect key="frame" x="37" y="188" width="340" height="21"/>
+                                <rect key="frame" x="37" y="288" width="340" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -59,7 +59,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zHj-V2-Y0Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="5eC-UP-JvY"/>
+                            <constraint firstItem="zHj-V2-Y0Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="5eC-UP-JvY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b4x-oR-RQv" secondAttribute="bottom" constant="20" id="5oE-pO-TVj"/>
                             <constraint firstItem="poj-Kq-j1P" firstAttribute="leading" secondItem="b4x-oR-RQv" secondAttribute="trailing" constant="20" id="6D4-xj-CbP"/>
                             <constraint firstItem="poj-Kq-j1P" firstAttribute="width" secondItem="b4x-oR-RQv" secondAttribute="width" id="BpT-2L-BcT"/>
